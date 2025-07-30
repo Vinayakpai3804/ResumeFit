@@ -1,0 +1,44 @@
+
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+\definecolor{darkblue}{RGB}{0,51,102}
+\definecolor{lightblue}{RGB}{0,102,204}
+
+\titleformat{\section}{\Large\bfseries\color{darkblue}}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{12pt}{6pt}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+
+\begin{document}
+
+% Header
+\begin{center}
+{\Huge\bfseries\color{darkblue} {{name}}}\\[0.5em]
+{{email}} $\bullet$ {{phone}} $\bullet$ {{address}}\\
+{{linkedin}} $\bullet$ {{github}} $\bullet$ {{website}}
+\end{center}
+
+% Summary
+\section{Professional Summary}
+{{summary}}
+
+% Experience
+\section{Professional Experience}
+{{experience}}
+
+% Education
+\section{Education}
+{{education}}
+
+% Skills
+\section{Skills}
+{{skills}}
+
+\end{document}
