@@ -33,10 +33,3 @@ It combines resume analysis, chatbot suggestions, and a simple step-by-step buil
 - **Groq LLM** – AI-powered analysis and chatbot  
 - **LaTeX** – PDF generation  
 
----
-
-## Feedback  
-
-We’d love to hear from you!  
-- Open an [Issue](https://github.com/your-username/resumefit/issues) for suggestions or bugs  
-- Submit a [Pull Request](https://github.com/your-username/resumefit/pulls) for improvements  
